@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Quiz de Historia</h1>
+    <section class="quiz">
+        <script src="main.js"></script>
+        <h1>Modo Facil</h1>
+        <h3>Egito</h3>
+
+        
+        <h2>1) Qual é o rio mais importante do Egito, conhecido como o "rio da vida"? A</h2>
+        <div class="question">
+        <input type="radio" name="q1" value="A">A) Rio Nilo</input>
+        <input type="radio" name="q1" value="B">B)  Rio Amazonas</input>
+        <input type="radio" name="q1" value="C">C) Rio Yangtzé</input>
+    </div>
+
+    <div class="question">
+        <h2>2) Qual é o nome das estruturas famosas construídas pelos antigos egípcios como tumbas para os faraós? B</h2>
+        <input type="radio" name="q2" value="A">A) Templos</input>
+        <input type="radio" name="q2" value="B">B) Pirâmides</input>
+        <input type="radio" name="q2" value="C">C) Castelos</input>
+    </div>
+
+    <div class="question">
+        <h2>3) Qual era o título dado ao governante supremo do Egito Antigo? C</h2>
+        <input type="radio" name="q3" value="A">A) Imperador</input>
+        <input type="radio" name="q3" value="B">B) Rei</input>
+        <input type="radio" name="q3" value="C">C) Faraó</input>
+    </div>
+
+    <div class="question">
+        <h2>4) Qual animal era considerado sagrado pelos antigos egípcios e muitas vezes associado à deusa Bastet? B</h2>
+        <input type="radio" name="q4" value="A">A) Leão</input>
+        <input type="radio" name="q4" value="B">B) Gato</input>
+        <input type="radio" name="q4" value="C">C) Cobra</input>
+    </div>
+
+    <div class="question">
+        <h2>5) Qual é o nome do sistema de escrita usado pelos antigos egípcios? B</h2>
+        <input type="radio" name="q5" value="A">A) Alfabeto Romano</input>
+        <input type="radio" name="q5" value="B">B) Hieróglifos</input>
+        <input type="radio" name="q5" value="C">C) Escrita Cuneiforme</input>
+    </div>
+
+    <button type="button" onclick="checkAnswers()">Enviar</button>
+
+    <div class="result" id="result"></div>
+    </section>
+
+    <a href="quiz-medio.html"><div class="next-button" id="next-button-container"></div></a>
+
+</body>
+</html>
+
+<!-- Enunciado do Projeto: Quiz de Níveis – Teste Seus Conhecimentos!
+Objetivo:
+Criar um quiz interativo dividido em três níveis d dificeuldade (Fácil, Médio e Difícil), com perguntas que testem os conhecimentos do usuário em um tema de sua escolha. O quiz deve progredir de nível conforme o usuário acerta as perguntas, tornando-se mais desafiador.
+
+Instruções do Projeto:
+Escolha um Tema para o Quiz:
+
+Pode ser sobre um tema como Programação, Cultura Pop, História Mundial, Jogos ou outro de sua preferê
+Estrutura do Quiz:
+
+Nível Fácil: 5 perguntas simples com opções de múltipla escolha.
+Nível Médio: 5 perguntas de complexidade intermediária.
+Nível Difícil: 5 perguntas avançadas.
+Regras do Quiz:
+
+O usuário começa no nível Fácil.
+Para avançar para o próximo nível, o usuário precisa acertar pelo menos 3 perguntas do nível atual.
+Se o usuário não alcançar a pontuação necessária, o quiz deve exibir uma mensagem incentivando a tentar novamente.
+Ao final do nível Difícil, exiba a pontuação total e uma mensagem personalizada com base no desempenho.
+Implementação Técnica:
+
+Use HTML para estruturar o quiz.
+Use CSS para estilizar o layout e criar uma interface atraente.
+Use JavaScript para implementar a lógica de progresso entre níveis, contagem de acertos e exibição de resultados.
+Funcionalidades Adicionais (Opcional):
+
+Adicione um botão de "Reiniciar" para que o usuário possa tentar novamente.
+Inclua um temporizador para responder cada pergunta.
+Insira feedback personalizado após cada resposta (exemplo: "Resposta Correta!" ou "Tente novamente"). -->
