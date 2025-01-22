@@ -25,8 +25,33 @@ h1, h3 {
     margin-top: 20px;
 }
 
-.question input {
+/* .question input {
     display: flex; 
     margin-left: 10px;
+} */
+
+.question {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
 }
 
+.question input {
+    margin-right: 5px; /* Adiciona um espaço entre o botão e o texto */
+}
+
+.question label {
+    display: flex;
+    align-items: center; /* Alinha verticalmente */
+    margin-bottom: 5px; /* Espaço entre as opções */
+}
+
+
+p {
+    max-width: 600px;
+    padding: 80px;
+}
+
+footer{
+    color: #3c3c42;
+}
